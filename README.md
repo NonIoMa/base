@@ -27,7 +27,8 @@ Each of `base32`, `base58` and `base64` provides:
 | `*_check(&str) -> bool` | Checks the base and returns bool|
 | `*_decode_fix(&str) -> (Result<Vec<u8>, Error>, String)` | Strip invalid characters, repair padding, decode; returns (base,clean)|
 
-Base32 uses the RFC 4648 alphabet and base64 the standard alphabet, both with `=` padding. Base58 uses the Bitcoin alphabet.
+Base32 uses the RFC 4648 alphabet and base64 the standard alphabet, both with `=` padding.\ 
+Base58 uses the Bitcoin alphabet.
 
 ## Errors
 
